@@ -56,18 +56,17 @@ public class Functions {
         String version = versionService.getVersion();
         return environmentService.getEnvironment(version);
     }
+    public Release getRelease(){
+        String version = versionService.getVersion();
+        return releaseService.getRelease(version);
+    }
+    //B
     public Environment getEnvironment(){
         String version = versionService.getVersion();
         return environmentService.getEnvironment(version);
     }
-    //B
-    public Environment getEnvironment(){
-        return environmentService.getEnvironment(getVersion());
-    }
     public Release getRelease(){
-        return releaseService.getRelease(getVersion());
-    }
-    private String getVersion(){
-        return versionService.getVersion();
+        String version = versionService.getVersion();
+        return releaseService.getRelease(version);
     }
 }
