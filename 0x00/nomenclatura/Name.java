@@ -38,7 +38,7 @@ public class Name {
 
     // Uma palavra por conceito
     //A
-    public AveUser(){}; Account(){}; Contract(){};
+    public aveUser(){}; Account(){}; Contract(){};
     //B
     public User(){}; Account(){}; Contract(){};
 
