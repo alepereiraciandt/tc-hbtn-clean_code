@@ -45,9 +45,9 @@ public class Name {
 
     //Use constants, enums instead of magic numbers, abbreviations
     //A
-    public int daysInYear = Days.DAYS_IN_YEARS;
-    public int hoursInWeek =  Days.DAYS_IN_YEARS.hashCode();
+    public int daysInYear = Days.daysInYear;
+    public int hoursInWeek =  Days.hoursInWeek;
     //B
-    public final int DAYS_IN_YEAR =  Days.DAYS_IN_YEARS.hashCode();
-    public final int HOURS_IN_WEEK =  Days.DAYS_IN_YEARS.hashCode();
+    public final int DAYS_IN_YEAR =  Days.daysInYear;
+    public final int HOURS_IN_WEEK =  Days.hoursInWeek;
 }

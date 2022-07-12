@@ -1,5 +1,5 @@
 public enum Days {
-    DAYS_IN_YEARS(360);
-    Days(int s) {
-    }
+
+    public final static int daysInYear = 360;
+    public final static int hoursInWeek = 160;
 }
