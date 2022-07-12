@@ -5,10 +5,10 @@ public class Name {
     //variáveis que falam por si só
     //A
     public Date modifiedDate;
-    public List<Testcase> findAllTestcasesByUser(Name.User user){};
+    public List<Testcase> findAllTestcasesByUser(User user){};
     //B
-    public Date d; // modified date
-    public List<Testcase> find(Name.User user){}; //find all Testcases by User
+    public Date getModifiedDate; // modified date
+    public List<Testcase> find(User user){}; //find all Testcases by User
 
     //Declarações corretas
     //A
