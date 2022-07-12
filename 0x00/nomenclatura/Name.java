@@ -18,36 +18,36 @@ public class Name {
 
     // Sem Prefixos
     //A
-    public void deleteUser(Name.User pUser){};
+    public void deleteUser(Name.User ProgramUser){};
     //B
     public void deleteUser(Name.User user){};
 
     // Evite mapa mental
     //A
-    public URL r;
+    public URL getUrl;
     //B
     public URL url;
 
     // Classe possui nomes próprios, funções devem ter verbos
     //A
-    public class TableRepresent {};
+    public class TableRepresentar {};
     public void saveCar(){};
     //B
-    public class TableRepresenter{};
+    public class TableRepresenta {};
     public void car(){};
 
     // Uma palavra por conceito
     //A
-    public saveUser(){}; saveAccount(){}; saveContract(){};
+    public User(){}; Account(){}; Contract(){};
     //B
-    public saveUser(){}; createAccount(){}; generateContract(){};
+    public User(){}; Account(){}; Contract(){};
 
 
     //Use constants, enums instead of magic numbers, abbreviations
     //A
-    public int daysInYear = 360;
-    public int hoursInWeek = 168;
+    public int daysInYear = Days.DAYS_IN_YEARS.hashCode();
+    public int hoursInWeek =  Days.DAYS_IN_YEARS.hashCode();
     //B
-    public final int DAYS_IN_YEAR = 360;
-    public final int HOURS_IN_WEEK = 168;
+    public final int DAYS_IN_YEAR =  Days.DAYS_IN_YEARS.hashCode();
+    public final int HOURS_IN_WEEK =  Days.DAYS_IN_YEARS.hashCode();
 }
