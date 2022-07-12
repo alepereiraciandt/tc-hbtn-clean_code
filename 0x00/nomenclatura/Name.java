@@ -38,14 +38,14 @@ public class Name {
 
     // Uma palavra por conceito
     //A
-    public User(){}; Account(){}; Contract(){};
+    public AveUser(){}; Account(){}; Contract(){};
     //B
     public User(){}; Account(){}; Contract(){};
 
 
     //Use constants, enums instead of magic numbers, abbreviations
     //A
-    public int daysInYear = Days.DAYS_IN_YEARS.hashCode();
+    public int daysInYear = Days.DAYS_IN_YEARS;
     public int hoursInWeek =  Days.DAYS_IN_YEARS.hashCode();
     //B
     public final int DAYS_IN_YEAR =  Days.DAYS_IN_YEARS.hashCode();
